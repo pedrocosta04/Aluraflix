@@ -1,4 +1,12 @@
 body {
     color: rgb(0, 0, 0);
-    background: radial-gradient(  rgb(121, 3, 3), rgb(219, 67, 67))
+    background: radial-gradient(  rgb(88, 70, 70), rgb(230, 14, 14))
+    
+    
+}
+
+header {
+   border-bottom: solid 3px rgb(207, 106, 12)
+   
+   
 }
