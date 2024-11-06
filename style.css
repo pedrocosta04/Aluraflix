@@ -1,12 +1,31 @@
 body {
     color: rgb(0, 0, 0);
-    background: radial-gradient(  rgb(88, 70, 70), rgb(230, 14, 14))
-    
+    background: radial-gradient(rgb(0, 0, 0), rgb(230, 14, 14));
+    margin:0px ;
     
 }
 
 header {
-   border-bottom: solid 3px rgb(207, 106, 12)
-   
-   
+    border-bottom: solid 3px rgb(53, 91, 216);
+    padding: 30px;
+    font-size: 60px;
+    color: rgb(61, 108, 197);
+    background: black;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+section {
+   padding-bottom: 80px;
+   padding-top: 80px;
+   display: flex;
+   justify-content:center;
+
+
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif;
 }
