@@ -14,11 +14,12 @@ header {
     font-family: "Bebas Neue", sans-serif;
 }
 
-section {
+.chamada {
    padding-bottom: 80px;
    padding-top: 80px;
    display: flex;
    justify-content:center;
+   padding-left: 20px;
 
 
 }
@@ -33,4 +34,50 @@ section {
 h2 {
     font-family: "Rowdies", sans-serif;
     font-size: 30px;
+}
+
+
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    
+
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+border-bottom: solid 3px rgb(53, 91, 216);
+padding: 30px;
+font-size: 15px;
+color: rgb(61, 108, 197);
+background: black;
+
+
+}
+
+.filmes-abaixo {
+    font-size: 20px;
+
+
+}
+
+.series {
+    font-family: "Bebas Neue", sans-serif
+
+
+}
+
+.categoria-videos img {
+    opacity: 0.3;
+    height: 200px;
+
+}
+
+.categoria-videos img:hover {
+ opacity: 2.0;
+border: 3px solid red;
 }
